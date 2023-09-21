@@ -5,7 +5,7 @@ const vol = document.getElementById("volume");
 const button = document.getElementById("submit");
 button.addEventListener("click", (event)=>{
   event.preventDefault();
-  let volCircle = (4 * MATH.PI * rad.value * rad.value * rad.value)/3;
+  let volCircle = (4 * Math.PI * rad.value * rad.value * rad.value)/3;
   vol.value = volCircle.toFixed(4);
 });
   
