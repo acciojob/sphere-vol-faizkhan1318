@@ -6,7 +6,7 @@ const button = document.getElementById("submit");
 button.addEventListener("click", (event)=>{
   event.preventDefault();
   let volCircle = (4 * MATH.PI * rad.value * rad.value * rad.value)/3;
-  vol.value = volCircle;
+  vol.value = volCircle.toFixed(4);
 });
   
 }
